@@ -1,0 +1,174 @@
+/* ================== LOGIN PAGE STYLES ================== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container{
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.login-container h2{
+    margin-bottom: 20px;
+}
+
+.login-container input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-container button{
+    width: 100%;
+    padding: 10px;
+    background-color: #A100FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.login-container button:hover{
+    background-color: #0056b3;
+}
+
+/*error message*/
+.error-message{
+    color: red;
+    margin-top: 10px;
+}
+
+/* ================== PORTFOLIO PAGE STYLES ================== */
+
+.portfolio-body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display:block ;
+    height: auto ;
+    overflow-x:hidden ;
+}
+
+.portfolio-header{
+    background-color: #A100FF;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.portfolio-header h1{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+.portfolio-header p{
+    font-size: 1.2rem;
+}
+
+.portfolio-section{
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.portfolio-section h2{
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #003366;
+}
+
+#skills ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding-left: 0;
+}
+
+#skills li{
+    background-color: #e0e0e0;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+#language ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding-left: 0;
+}
+
+#language li{
+    background-color: #e0e0e0;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+
+
+#work dl{
+    margin-top: 1rem;
+}
+
+#work dt{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+    color: #222;
+}
+
+#work dd{
+    margin: 0.5rem 0 1rem 1rem;
+}
+
+#work ul{
+    margin-left: 1rem;
+    list-style-type: disc;
+}
+
+.company-logo{
+    width: 24px;
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 6px;
+
+}
+
+footer{
+    background-color: #A100FF;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+
+}
+
+@media(max-width:768px){
+    .portfolio-header h1{
+        font-size: 2rem;
+    }
+    #skills ul{
+        flex-direction: column;
+    }
+}
